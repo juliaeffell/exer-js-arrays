@@ -1,0 +1,19 @@
+Rodar um arquivo JS que:
+
+1. Criar um objeto que represente um produto do supermercado, ele precisa ter:
+ - nome 
+ - preço
+ - setor
+ - disponibilidade em estoque 
+ - marca
+
+2. Mostrar no console se este produto ainda está em estoque ou não, baseando-se nos dados da sua variável, ex.: 'O produto (nome do produto) ainda possui (x quantidade em estoque) und'. Elabore a frase para quando o estoque estiver zerado.
+
+3. Crie um array de produtos de supermercado
+
+4. Mostre no console:
+	a. o primeiro produto do array
+	b. o último produto do array
+	c. os produtos que são mais caros do que 10 reais
+	d. os produtos que pertencem ao setor de salgadinho
+	e. os produtos de um setor específico (ignorando os de outros setores)
