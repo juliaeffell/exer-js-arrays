@@ -15,5 +15,5 @@ Rodar um arquivo JS que:
 	a. o primeiro produto do array
 	b. o último produto do array
 	c. os produtos que são mais caros do que 10 reais
-	d. os produtos que pertencem ao setor de salgadinho
+	d. mostrar somente o nome e o preco de cada item no console
 	e. os produtos de um setor específico (ignorando os de outros setores)

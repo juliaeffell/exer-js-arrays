@@ -1,27 +1,27 @@
-// Criação de um objeto "produto" com propriedades como nome, preço, setor, disponibilidade e marca
-let produto = {   
-  nome: "refri", // Nome do produto
-  preço: 0.89, // Preço do produto
-  setor: "bebidas", // Setor ao qual o produto pertence
-  disponibilidade: 0, // Quantidade disponível em estoque
-  marca: "fruki", // Marca do produto
-}; // array de produtos "produto"
+// // Criação de um objeto "produto" com propriedades como nome, preço, setor, disponibilidade e marca
+// let produto = {   
+//   nome: "refri", // Nome do produto
+//   preço: 0.89, // Preço do produto
+//   setor: "bebidas", // Setor ao qual o produto pertence
+//   disponibilidade: 0, // Quantidade disponível em estoque
+//   marca: "fruki", // Marca do produto
+// }; // array de produtos "produto"
 
-// Verifica se o produto está disponível no estoque
-if (produto.disponibilidade > 0) {
-  // Caso haja disponibilidade, exibe uma mensagem com o nome, quantidade e valor total do estoque
-  console.log(
-    `O produto ${produto.nome} posssui ${
-      produto.disponibilidade
-    } und em estoque, totalizando um valor de R$ ${
-      produto.preço * produto.disponibilidade
-    }`
-  );
-} else 
-  // Caso não haja disponibilidade, exibe uma mensagem informando que o estoque está zerado
-  console.log(`Estoque zerado para o ${produto.nome}`);
+// // Verifica se o produto está disponível no estoque
+// if (produto.disponibilidade > 0) {
+//   // Caso haja disponibilidade, exibe uma mensagem com o nome, quantidade e valor total do estoque
+//   console.log(
+//     `O produto ${produto.nome} posssui ${
+//       produto.disponibilidade
+//     } und em estoque, totalizando um valor de R$ ${
+//       produto.preço * produto.disponibilidade
+//     }`
+//   );
+// } else 
+//   // Caso não haja disponibilidade, exibe uma mensagem informando que o estoque está zerado
+//   console.log(`Estoque zerado para o ${produto.nome}`);
 
-// Criação de um array "produtos" contendo vários objetos, cada um representando um produto
+// // Criação de um array "produtos" contendo vários objetos, cada um representando um produto
 let produtos = [
   {
     nome: "Doritos", // Nome do produto
@@ -60,34 +60,39 @@ let produtos = [
   },
 ];
 
-// Exibe o nome do primeiro produto do array "produtos"
-console.log(`O primeiro produto do array é: ${produtos[0].nome}`)
+// // Exibe o nome do primeiro produto do array "produtos"
+// console.log(`O primeiro produto do array é: ${produtos[0].nome}`)
 
-// Calcula o tamanho do array "produtos"
-let arraytamanho = produtos.length
+// // Calcula o tamanho do array "produtos"
+// let arraytamanho = produtos.length
 
-// Exibe o nome do último produto do array "produtos"
-console.log(`O último produto do array é: ${produtos[arraytamanho - 1].nome}`)
+// // Exibe o nome do último produto do array "produtos"
+// console.log(`O último produto do array é: ${produtos[arraytamanho - 1].nome}`)
 
-/**
- * Filtra o array original "produtos" para criar um novo array contendo apenas os produtos
- * cujo preço seja menor que 10 reais.
- */
+// /**
+//  * Filtra o array original "produtos" para criar um novo array contendo apenas os produtos
+//  * cujo preço seja menor que 10 reais.
+//  */
 
-// Criação de um array vazio para armazenar os produtos mais baratos que 10 reais
-let maisBaratosQue10Reais = []
+// // Criação de um array vazio para armazenar os produtos mais baratos que 10 reais
+// let maisBaratosQue10Reais = []
 
-// Itera sobre cada produto do array "produtos"
-for (const produto of produtos) { 
-  // Verifica se o preço do produto é menor que 10
-  if (produto.preço < 10) {
-    // Adiciona o nome do produto ao array "maisBaratosQue10Reais"
-    maisBaratosQue10Reais.push(produto.nome)
-  }
+// // Itera sobre cada produto do array "produtos"
+// for (const produto of produtos) { 
+//   // Verifica se o preço do produto é menor que 10
+//   if (produto.preço < 10) {
+//     // Adiciona o nome do produto ao array "maisBaratosQue10Reais"
+//     maisBaratosQue10Reais.push(produto.nome)
+//   }
+// }
+
+// // Exibe o array contendo os nomes dos produtos mais baratos que 10 reais
+// console.log(maisBaratosQue10Reais)
+
+// // Exibe os nomes dos produtos mais baratos que 10 reais como uma string, separados por vírgulas
+// console.log(maisBaratosQue10Reais.join(', '))
+
+for (let index = 0; index < produtos.length; index++) {
+  const produto = produtos[index];
+  console.log(`O nome deste produto é ${produto.nome} e seu preço R$ ${produto.preço}`)
 }
-
-// Exibe o array contendo os nomes dos produtos mais baratos que 10 reais
-console.log(maisBaratosQue10Reais)
-
-// Exibe os nomes dos produtos mais baratos que 10 reais como uma string, separados por vírgulas
-console.log(maisBaratosQue10Reais.join(', '))
