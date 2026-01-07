@@ -96,3 +96,18 @@ let produtos = [
 //   const produto = produtos[index];
 //   console.log(`O nome deste produto é ${produto.nome} e seu preço R$ ${produto.preço}`)
 // }
+
+
+let setorSalgadinho = []
+
+for (const produto of produtos) {
+  if (produto.setor === "Salgadinho") {
+    setorSalgadinho.push(produto.nome)
+  }
+}
+
+console.log(setorSalgadinho)
+console.log(setorSalgadinho.join(', '))
+  
+
+
