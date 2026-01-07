@@ -92,7 +92,7 @@ let produtos = [
 // // Exibe os nomes dos produtos mais baratos que 10 reais como uma string, separados por vírgulas
 // console.log(maisBaratosQue10Reais.join(', '))
 
-for (let index = 0; index < produtos.length; index++) {
-  const produto = produtos[index];
-  console.log(`O nome deste produto é ${produto.nome} e seu preço R$ ${produto.preço}`)
-}
+// for (let index = 0; index < produtos.length; index++) {
+//   const produto = produtos[index];
+//   console.log(`O nome deste produto é ${produto.nome} e seu preço R$ ${produto.preço}`)
+// }
