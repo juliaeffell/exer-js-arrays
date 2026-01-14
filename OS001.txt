@@ -1,0 +1,33 @@
+Deve-se gerar uma lista de 8 produtos de maquiagem, em que cada produto contém os seguintes dados:
+    > nome
+    > preço
+    > disponibilidade
+
+Também deve-se considerar um carrinho de compras
+
+Somente deve-se adicionar 1 produto ao carrinho se:
+    > o valor do produto for inferior à 25 reais
+    > a disponibilidade do produto for maior que 0
+
+No final do script, deve-se cuspir a nota fiscal da compra, contendo:
+    > Nome e preço dos itens contidos no carrinho
+    > Quantidade total de produtos contidos no carrinho
+    > Orçamento final da compra
+    Exemplo de layout da nota:
+        NOTA FISCAL - Produtos de maquilagem
+
+        Lista de itens:
+            - Produto X, R$ XXX.XX
+            - Produto Y, R$ YYY.YY
+            - Produto Z, R$ ZZZ.ZZ
+
+        -----------------------------------------
+
+        Total itens: 3
+        Budget final: JJJ.JJ
+
+---
+
+Prazo: 4 horas
+Valor: 20 reais
+Obs.: Deve-se commitar o projeto pós solução
