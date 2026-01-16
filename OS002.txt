@@ -1,0 +1,33 @@
+Construa uma lista de 8 carros, em que cada carro precisa possuir os seguintes atributos:
+    nome
+    marca
+    velocidade maxima
+    preco
+    ano
+    cor
+
+Mostre no console, os carros que:
+    a. ultrapassem 230km/h
+    b. custem mais de 100mil
+    c. são superiores a 2010 da cor vermelha
+
+Layout esperado:
+
+    Carros que ultrapassam 230km/h:
+    - {Nome do carro A};
+    - {Nome do carro B};
+    - {Nome do carro C};
+
+    Carros que custam mais de 100mil:
+    - {Nome do carro A};
+    - {Nome do carro B};
+    - {Nome do carro C};
+
+    Carros vermelhos superiores à 2010:
+    - {Nome do carro A};
+    - {Nome do carro B};
+    - {Nome do carro C};
+
+Prazo: 3 horas
+Valor: 5 reais
+Obs.: Deve-se commitar o projeto pós solução
