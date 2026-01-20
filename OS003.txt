@@ -1,0 +1,26 @@
+Considerando uma lista de 8 carros, em que cada carro possui os seguintes atributos:
+    nome
+    marca
+    ano
+    cor
+
+Informe no console:
+    a. os carros que forem pretos e azuis
+    b. os carros que foram fabricados entre 2010 e 2020
+        obs.: não pode usar variável de suporte
+
+Layout esperado:
+
+    Carros pretos e azuis:
+    - {Nome do carro A}, cor {Cor do Carro A};
+    - {Nome do carro B}, cor {Cor do Carro B};
+    ...
+
+    Carros fabricados entre 2010 e 2020:
+    - {Nome do carro A}, ano {Ano do Carro A};
+    - {Nome do carro B}, ano {Ano do Carro B};
+    ...
+
+Prazo: 1h45m 
+Valor: 5 reais
+Obs.: Deve-se commitar o projeto pós solução
