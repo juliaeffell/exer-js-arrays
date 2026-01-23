@@ -1,0 +1,20 @@
+A partir de uma matriz multidimensional de palavras, mostre no console:
+    a. quantas palavras existem em cada vetor
+    b. quantos caracteres tem a palavra com o maior número de caracteres de cada vetor
+    c. quantos caracteres tem a palavra com o menor número de caracteres de cada vetor
+
+Layout esperado:
+
+    O vetor 1 possui N palavras:
+    - a sua maior palavra é X e possui N caracteres
+    - a sua menor palavra é Y e possui N caracteres
+
+    O vetor 2 possui N palavras:
+    - a sua maior palavra é X e possui N caracteres
+    - a sua menor palavra é Y e possui N caracteres
+
+    ...
+
+Prazo: indeterminado
+Valor: 10 reais
+Obs.: Deve-se commitar o projeto pós solução
