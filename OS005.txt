@@ -1,0 +1,12 @@
+a. crie uma função que mostre os números de 1 a 5 no console
+
+b. crie uma função que sempre mostre no console o nome do
+    segundo item de qualquer array de objetos que possua o atributo
+
+c. crie uma função que recebe um grupo de alunos, separa eles
+    entre aprovados e reprovados, uma vez que a nota mínima para
+    aprovação é 7 e então mostra-os no console
+
+Prazo: 2 horas
+Valor: 5 reais
+Obs.: Deve-se commitar o projeto pós solução
