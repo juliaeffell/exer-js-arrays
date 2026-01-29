@@ -1,0 +1,10 @@
+A partir de uma lista de programadores, relatar através do console quais deles:
+    a. são seniores, uma vez que a regra para ser Sr. é possuir mais de 10 projetos e 5 anos de experiência
+    b. quais são plenos, uma vez que a regra para ser mid-level é possuir no mínimo 5 projetos e 3 anos de experiência
+    c. quais são júniors
+    d. também é necessário mencionar qual projeto de maior orçamento de cada dev
+    e. qual a linguagem principal de cada dev (a que possuir maior incidência em projetos)
+
+Prazo: 4 horas
+Valor: 10 reais
+Obs.: Deve-se commitar o projeto pós solução
